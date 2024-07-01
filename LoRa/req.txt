@@ -1,0 +1,13 @@
+-konsentrator + gateway
+3 PCB kayak keypoint
+power 12v 220v
+rs485
+lora ebyte
+tanpa micro
+
+-monkwh
+1 PCB kayak keypoint
+power 12v 220v
+rs485
+lora ebyte
+
