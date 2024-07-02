@@ -7604,48 +7604,12 @@ Based on the previous libraries:
 <text x="-2.286" y="4.445" size="1.27" layer="21" ratio="10">2</text>
 <text x="2.794" y="4.445" size="1.27" layer="21" ratio="10">3</text>
 </package>
-<package name="MSTBA2" urn="urn:adsk.eagle:footprint:9521/1" library_version="3">
-<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
-<wire x1="-6.096" y1="7.112" x2="-6.096" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="7.112" x2="-3.175" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="7.112" x2="-1.905" y2="7.112" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="7.112" x2="1.905" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="7.112" x2="3.175" y2="7.112" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="7.112" x2="6.096" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-1.905" x2="6.096" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="6.096" y1="7.112" x2="6.096" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-4.953" x2="-3.429" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-1.905" x2="-6.096" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="6.096" y1="-1.905" x2="6.096" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-4.953" x2="-2.032" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-4.953" x2="1.651" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="-3.683" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-4.953" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-4.953" x2="-1.651" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="-4.953" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="-4.953" x2="6.096" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="-4.953" x2="2.032" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="-4.953" x2="3.429" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-3.683" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
-<pad name="2" x="2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
-<text x="-6.096" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="0" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-4.572" y="4.445" size="1.27" layer="21" ratio="10">1</text>
-<text x="0.254" y="4.445" size="1.27" layer="21" ratio="10">2</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="MSTBA3" urn="urn:adsk.eagle:package:9608/1" type="box" library_version="3">
 <description>PHOENIX</description>
 <packageinstances>
 <packageinstance name="MSTBA3"/>
-</packageinstances>
-</package3d>
-<package3d name="MSTBA2" urn="urn:adsk.eagle:package:9615/1" type="box" library_version="3">
-<description>PHOENIX</description>
-<packageinstances>
-<packageinstance name="MSTBA2"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -7699,33 +7663,6 @@ Based on the previous libraries:
 <attribute name="OC_FARNELL" value="3705183" constant="no"/>
 <attribute name="OC_NEWARK" value="71C4162" constant="no"/>
 <attribute name="POPULARITY" value="3" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MSTBA2" urn="urn:adsk.eagle:component:9687/2" prefix="X" library_version="3">
-<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
-<gates>
-<gate name="-1" symbol="SK" x="0" y="5.08" addlevel="always"/>
-<gate name="-2" symbol="SKV" x="0" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="MSTBA2">
-<connects>
-<connect gate="-1" pin="1" pad="1"/>
-<connect gate="-2" pin="1" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9615/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="FARNELL" constant="no"/>
-<attribute name="MPN" value="1757242" constant="no"/>
-<attribute name="OC_FARNELL" value="3705171" constant="no"/>
-<attribute name="OC_NEWARK" value="71C4161" constant="no"/>
-<attribute name="POPULARITY" value="11" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7801,6 +7738,52 @@ Based on the previous libraries:
 <attribute name="PRICE" value="None"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SS24/Onsemi/view-part/?ref=snap"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="MINI560">
+<packages>
+<package name="MINI560">
+<wire x1="-2" y1="1" x2="-2" y2="-17" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-17" x2="28" y2="-17" width="0.1524" layer="21"/>
+<wire x1="28" y1="-17" x2="28" y2="1" width="0.1524" layer="21"/>
+<wire x1="28" y1="1" x2="-2" y2="1" width="0.1524" layer="21"/>
+<pad name="IN+" x="0" y="-1.27" drill="0.7" diameter="3" shape="square"/>
+<pad name="IN-" x="0" y="-15.24" drill="0.7" diameter="3" shape="square"/>
+<pad name="OUT-" x="25.67" y="-15.24" drill="0.7" diameter="3" shape="square"/>
+<pad name="OUT+" x="25.67" y="-1.27" drill="0.7" diameter="3" shape="square"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MINI560">
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="10.16" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
+<pin name="IN+" x="-10.16" y="2.54" length="middle"/>
+<pin name="IN-" x="-10.16" y="0" length="middle"/>
+<pin name="OUT-" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="OUT+" x="15.24" y="2.54" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MINI560" prefix="MINI560" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="MINI560" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINI560">
+<connects>
+<connect gate="G$1" pin="IN+" pad="IN+"/>
+<connect gate="G$1" pin="IN-" pad="IN-"/>
+<connect gate="G$1" pin="OUT+" pad="OUT+"/>
+<connect gate="G$1" pin="OUT-" pad="OUT-"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -8097,46 +8080,67 @@ Based on the previous libraries:
 </deviceset>
 </devicesets>
 </library>
-<library name="SUPER-STEPDOWN">
+<library name="1744429-3">
 <packages>
-<package name="SUPER-STEPDOWN">
-<wire x1="0" y1="27" x2="63" y2="27" width="0.1524" layer="21"/>
-<wire x1="63" y1="27" x2="63" y2="0" width="0.1524" layer="21"/>
-<wire x1="63" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="27" width="0.1524" layer="21"/>
-<pad name="IN+" x="3.477990625" y="23.9794375" drill="0.85" diameter="1.6" shape="octagon"/>
-<pad name="IN-" x="3.477990625" y="18.8994375" drill="0.85" diameter="1.6" shape="octagon"/>
-<pad name="+5V" x="59.5088875" y="24.00575625" drill="0.85" diameter="1.6" shape="octagon"/>
-<pad name="GND" x="59.5088875" y="18.92575625" drill="0.85" diameter="1.6" shape="octagon"/>
+<package name="TE_1744429-3">
+<wire x1="-1.98" y1="-4.8" x2="-1.98" y2="3.8" width="0.127" layer="51"/>
+<wire x1="-1.98" y1="3.8" x2="9.9" y2="3.8" width="0.127" layer="51"/>
+<wire x1="9.9" y1="3.8" x2="9.9" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="9.9" y1="-4.8" x2="-1.98" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="-1.98" y1="-4.8" x2="-1.98" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="-1.98" y1="-4.8" x2="9.9" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="9.9" y1="-4.8" x2="9.9" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="-1.98" y1="-4.8" x2="-1.98" y2="3.8" width="0.127" layer="21"/>
+<wire x1="9.9" y1="3.8" x2="9.9" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="9.9" y1="3.8" x2="-1.98" y2="3.8" width="0.127" layer="21"/>
+<wire x1="9.9" y1="-4.8" x2="-1.98" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="-2.23" y1="-5.05" x2="-2.23" y2="4.05" width="0.05" layer="39"/>
+<wire x1="-2.23" y1="4.05" x2="10.15" y2="4.05" width="0.05" layer="39"/>
+<wire x1="10.15" y1="4.05" x2="10.15" y2="-5.05" width="0.05" layer="39"/>
+<wire x1="10.15" y1="-5.05" x2="-2.23" y2="-5.05" width="0.05" layer="39"/>
+<text x="-2.98" y="5.05" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.98" y="-7.05" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-2.63" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.63" y="0" radius="0.1" width="0.2" layer="51"/>
+<hole x="1.98" y="3.18" drill="1.68"/>
+<hole x="5.94" y="3.18" drill="1.68"/>
+<pad name="1" x="0" y="0" drill="1.75" diameter="2.1" shape="square"/>
+<pad name="2" x="3.96" y="0" drill="1.75" diameter="2.1"/>
+<pad name="3" x="7.92" y="0" drill="1.75" diameter="2.1"/>
 </package>
 </packages>
 <symbols>
-<symbol name="SUPER-STEPDOWN">
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
-<pin name="IN+" x="-12.7" y="5.08" length="middle"/>
-<pin name="IN-" x="-12.7" y="0" length="middle"/>
-<pin name="+5V" x="12.7" y="5.08" length="middle" rot="R180"/>
-<pin name="GND" x="12.7" y="0" length="middle" rot="R180"/>
+<symbol name="1744429-3">
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="-5.58" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="3" x="-10.16" y="-2.54" length="middle" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SUPER-STEPDOWN" prefix="SUPER-STEPDOWN" uservalue="yes">
+<deviceset name="1744429-3" prefix="J">
+<description>3.96 EP HDR ASSY 6P W/PEGS, GW,NO PIN 3 </description>
 <gates>
-<gate name="G$1" symbol="SUPER-STEPDOWN" x="-2.54" y="-2.54"/>
+<gate name="G$1" symbol="1744429-3" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SUPER-STEPDOWN">
+<device name="" package="TE_1744429-3">
 <connects>
-<connect gate="G$1" pin="+5V" pad="+5V"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="IN+" pad="IN+"/>
-<connect gate="G$1" pin="IN-" pad="IN-"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUFACTURER" value="TE"/>
+<attribute name="PARTREV" value="R"/>
+<attribute name="STANDARD" value="Manufacturer Recommendations"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -8154,6 +8158,7 @@ Based on the previous libraries:
 </classes>
 <parts>
 <part name="HUAWEI-PLC1" library="HUAWEI-PLC" deviceset="HUAWEI-PLC" device=""/>
+<part name="MINI1" library="MINI560" deviceset="MINI560" device=""/>
 <part name="D2" library="SS24" deviceset="SS24" device=""/>
 <part name="D3" library="SS24" deviceset="SS24" device=""/>
 <part name="U2" library="AMS1117" deviceset="AMS1117" device=""/>
@@ -8174,8 +8179,7 @@ Based on the previous libraries:
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X4" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA3" device="" package3d_urn="urn:adsk.eagle:package:9608/1"/>
-<part name="SUPER-STEPDOWN1" library="SUPER-STEPDOWN" deviceset="SUPER-STEPDOWN" device=""/>
-<part name="X1" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA2" device="" package3d_urn="urn:adsk.eagle:package:9615/1"/>
+<part name="J1" library="1744429-3" deviceset="1744429-3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8198,6 +8202,7 @@ Based on the previous libraries:
 </plain>
 <instances>
 <instance part="HUAWEI-PLC1" gate="G$1" x="93.98" y="152.4" smashed="yes"/>
+<instance part="MINI1" gate="G$1" x="190.5" y="93.98" smashed="yes"/>
 <instance part="D2" gate="G$1" x="172.72" y="96.52" smashed="yes">
 <attribute name="NAME" x="167.64" y="99.06" size="1.778" layer="95"/>
 <attribute name="VALUE" x="167.64" y="92.71" size="1.778" layer="96"/>
@@ -8252,8 +8257,8 @@ Based on the previous libraries:
 <attribute name="NAME" x="16.2814" y="151.13" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="21.082" y="151.13" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND3" gate="1" x="208.28" y="88.9" smashed="yes">
-<attribute name="VALUE" x="205.74" y="86.36" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="205.74" y="88.9" smashed="yes">
+<attribute name="VALUE" x="203.2" y="86.36" size="1.778" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="116.84" y="43.18" smashed="yes">
 <attribute name="VALUE" x="114.3" y="40.64" size="1.778" layer="96"/>
@@ -8280,19 +8285,27 @@ Based on the previous libraries:
 <attribute name="VALUE" x="27.94" y="54.61" size="1.778" layer="96"/>
 <attribute name="NAME" x="28.956" y="59.309" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="SUPER-STEPDOWN1" gate="G$1" x="193.04" y="91.44" smashed="yes"/>
-<instance part="X1" gate="-1" x="160.02" y="96.52" smashed="yes">
-<attribute name="NAME" x="153.416" y="97.409" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="X1" gate="-2" x="160.02" y="91.44" smashed="yes">
-<attribute name="VALUE" x="152.4" y="87.63" size="1.778" layer="96"/>
-<attribute name="NAME" x="153.416" y="92.329" size="1.778" layer="95" rot="R180"/>
+<instance part="J1" gate="G$1" x="154.94" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="160.52" y="88.9" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="160.02" y="101.6" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
+<segment>
+<pinref part="MINI1" gate="G$1" pin="IN-"/>
+<wire x1="165.1" y1="91.44" x2="180.34" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="91.44" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="MINI1" gate="G$1" pin="OUT-"/>
+<wire x1="180.34" y1="91.44" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="91.44" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
+<junction x="180.34" y="91.44"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<junction x="205.74" y="91.44"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+</segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="U3" gate="A" pin="GND"/>
@@ -8328,24 +8341,19 @@ Based on the previous libraries:
 <junction x="55.88" y="129.54"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
-<segment>
-<pinref part="SUPER-STEPDOWN1" gate="G$1" pin="GND"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="205.74" y1="91.44" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="K"/>
+<pinref part="MINI1" gate="G$1" pin="IN+"/>
 <wire x1="177.8" y1="96.52" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="SUPER-STEPDOWN1" gate="G$1" pin="IN+"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
+<pinref part="MINI1" gate="G$1" pin="OUT+"/>
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="205.74" y1="96.52" x2="210.82" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="SUPER-STEPDOWN1" gate="G$1" pin="+5V"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -8452,7 +8460,7 @@ Based on the previous libraries:
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="165.1" y1="96.52" x2="167.64" y2="96.52" width="0.1524" layer="91"/>
 <label x="167.64" y="96.52" size="0.6096" layer="95" rot="R90" xref="yes"/>
-<pinref part="X1" gate="-1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="HUAWEI-PLC1" gate="G$1" pin="VCC"/>
@@ -8551,13 +8559,6 @@ Based on the previous libraries:
 <wire x1="93.98" y1="121.92" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
 <junction x="93.98" y="121.92"/>
 <label x="93.98" y="114.3" size="0.6096" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<wire x1="165.1" y1="91.44" x2="180.34" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="SUPER-STEPDOWN1" gate="G$1" pin="IN-"/>
-<pinref part="X1" gate="-2" pin="1"/>
 </segment>
 </net>
 </nets>
