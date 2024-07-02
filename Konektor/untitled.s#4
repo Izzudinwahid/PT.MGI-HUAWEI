@@ -935,6 +935,9 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <sheet>
 <plain>
 <text x="132.08" y="68.58" size="3.81" layer="95">DIP-SWITCH</text>
+<text x="83.82" y="73.66" size="3.81" layer="95">ARUS R S T </text>
+<text x="55.88" y="73.66" size="1.9304" layer="95">TEGANGAN 3 Phase</text>
+<text x="30.48" y="73.66" size="3.81" layer="95">RS485</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
