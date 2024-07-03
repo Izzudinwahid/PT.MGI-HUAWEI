@@ -9571,9 +9571,9 @@ ke MEAN Wheal</text>
 <label x="170.18" y="157.48" size="0.6096" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-1" pin="1"/>
-<wire x1="43.18" y1="93.98" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
-<label x="43.18" y="96.52" size="0.6096" layer="95" rot="R90" xref="yes"/>
+<pinref part="X1" gate="-6" pin="1"/>
+<wire x1="68.58" y1="93.98" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
+<label x="68.58" y="96.52" size="0.6096" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="IA2" class="0">
@@ -9583,9 +9583,9 @@ ke MEAN Wheal</text>
 <label x="170.18" y="154.94" size="0.6096" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-2" pin="1"/>
-<wire x1="48.26" y1="93.98" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
-<label x="48.26" y="96.52" size="0.6096" layer="95" rot="R90" xref="yes"/>
+<pinref part="X1" gate="-5" pin="1"/>
+<wire x1="63.5" y1="93.98" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
+<label x="63.5" y="96.52" size="0.6096" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="IB1" class="0">
@@ -9595,9 +9595,9 @@ ke MEAN Wheal</text>
 <label x="170.18" y="152.4" size="0.6096" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-3" pin="1"/>
-<wire x1="53.34" y1="93.98" x2="53.34" y2="96.52" width="0.1524" layer="91"/>
-<label x="53.34" y="96.52" size="0.6096" layer="95" rot="R90" xref="yes"/>
+<pinref part="X1" gate="-4" pin="1"/>
+<wire x1="58.42" y1="93.98" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
+<label x="58.42" y="96.52" size="0.6096" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="IB2" class="0">
@@ -9607,9 +9607,9 @@ ke MEAN Wheal</text>
 <label x="170.18" y="149.86" size="0.6096" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-4" pin="1"/>
-<wire x1="58.42" y1="93.98" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
-<label x="58.42" y="96.52" size="0.6096" layer="95" rot="R90" xref="yes"/>
+<pinref part="X1" gate="-3" pin="1"/>
+<wire x1="53.34" y1="93.98" x2="53.34" y2="96.52" width="0.1524" layer="91"/>
+<label x="53.34" y="96.52" size="0.6096" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="IC1" class="0">
@@ -9619,9 +9619,9 @@ ke MEAN Wheal</text>
 <label x="170.18" y="147.32" size="0.6096" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-5" pin="1"/>
-<wire x1="63.5" y1="93.98" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
-<label x="63.5" y="96.52" size="0.6096" layer="95" rot="R90" xref="yes"/>
+<pinref part="X1" gate="-2" pin="1"/>
+<wire x1="48.26" y1="93.98" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
+<label x="48.26" y="96.52" size="0.6096" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="IC2" class="0">
@@ -9631,9 +9631,9 @@ ke MEAN Wheal</text>
 <label x="170.18" y="144.78" size="0.6096" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-6" pin="1"/>
-<wire x1="68.58" y1="93.98" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
-<label x="68.58" y="96.52" size="0.6096" layer="95" rot="R90" xref="yes"/>
+<pinref part="X1" gate="-1" pin="1"/>
+<wire x1="43.18" y1="93.98" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
+<label x="43.18" y="96.52" size="0.6096" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="A" class="0">

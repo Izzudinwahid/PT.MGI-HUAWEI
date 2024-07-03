@@ -8928,6 +8928,11 @@ ke MEAN Wheal</text>
 <wire x1="83.82" y1="96.52" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
 <label x="83.82" y="99.06" size="0.6096" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="POWERMETER1" gate="G$1" pin="L"/>
+<wire x1="187.96" y1="137.16" x2="187.96" y2="134.62" width="0.1524" layer="91"/>
+<label x="187.96" y="134.62" size="0.6096" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="NEG(-)" class="0">
 <segment>
@@ -8949,6 +8954,11 @@ ke MEAN Wheal</text>
 <pinref part="X6" gate="-3" pin="1"/>
 <wire x1="88.9" y1="96.52" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
 <label x="88.9" y="99.06" size="0.6096" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="POWERMETER1" gate="G$1" pin="N"/>
+<wire x1="193.04" y1="137.16" x2="193.04" y2="134.62" width="0.1524" layer="91"/>
+<label x="193.04" y="134.62" size="0.6096" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -8992,11 +9002,6 @@ ke MEAN Wheal</text>
 <pinref part="X2" gate="-1" pin="1"/>
 <wire x1="15.24" y1="93.98" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
 <label x="15.24" y="96.52" size="0.6096" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="POWERMETER1" gate="G$1" pin="L"/>
-<wire x1="187.96" y1="137.16" x2="187.96" y2="134.62" width="0.1524" layer="91"/>
-<label x="187.96" y="134.62" size="0.6096" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="POWERMETER1" gate="G$1" pin="V1"/>
@@ -9054,11 +9059,6 @@ ke MEAN Wheal</text>
 <pinref part="X2" gate="-4" pin="1"/>
 <wire x1="30.48" y1="93.98" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
 <label x="30.48" y="96.52" size="0.6096" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="POWERMETER1" gate="G$1" pin="N"/>
-<wire x1="193.04" y1="137.16" x2="193.04" y2="134.62" width="0.1524" layer="91"/>
-<label x="193.04" y="134.62" size="0.6096" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="POWERMETER1" gate="G$1" pin="VN"/>
