@@ -4478,10 +4478,6 @@ design rules under a new name.</description>
 <vertex x="0" y="0"/>
 </polygon>
 <contactref element="X3" pad="11"/>
-<wire x1="93.389909375" y1="44.1441875" x2="108.629909375" y2="44.1441875" width="0" layer="19" extent="1-1"/>
-<wire x1="75.36685625" y1="57.36790625" x2="93.389909375" y2="44.1441875" width="0" layer="19" extent="1-1"/>
-<wire x1="75.036071875" y1="2.249565625" x2="93.389909375" y2="44.1441875" width="0" layer="19" extent="1-1"/>
-<wire x1="34.752346875" y1="57.068503125" x2="75.036071875" y2="2.249565625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="TTL-RS1" pad="RX"/>
@@ -4721,6 +4717,9 @@ design rules under a new name.</description>
 <approved hash="4,16,711971ed6bb1f941"/>
 <approved hash="4,16,6cf3801a2a5454de"/>
 <approved hash="4,16,73792e4893f3de78"/>
+<approved hash="4,5,01968e115e124da6"/>
+<approved hash="4,16,bc6c7096f875b623"/>
+<approved hash="4,16,bc6c7096f875b623"/>
 </errors>
 </board>
 </drawing>

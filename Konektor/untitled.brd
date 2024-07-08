@@ -2849,6 +2849,17 @@
 <rectangle x1="12.7254" y1="35.7886" x2="16.6878" y2="35.8394" layer="25"/>
 <rectangle x1="18.5674" y1="35.7886" x2="26.5938" y2="35.8394" layer="25"/>
 <rectangle x1="28.321" y1="35.7886" x2="31.369" y2="35.8394" layer="25"/>
+<text x="35.47964375" y="47.76795625" size="1.778" layer="25" rot="R90">GND</text>
+<text x="38.352571875" y="47.82824375" size="1.778" layer="25" rot="R90">+5V</text>
+<text x="40.58260625" y="47.8684375" size="1.778" layer="25" rot="R90">A2</text>
+<text x="43.214446875" y="47.82824375" size="1.778" layer="25" rot="R90">B2</text>
+<text x="45.831034375" y="47.76643125" size="1.778" layer="25" rot="R90">A1</text>
+<text x="48.495028125" y="47.74055625" size="1.778" layer="25" rot="R90">B1</text>
+<text x="51.055146875" y="47.7042875" size="1.778" layer="25" rot="R90">K1</text>
+<text x="53.425796875" y="47.7042875" size="1.778" layer="25" rot="R90">K2</text>
+<text x="56.249021875" y="47.63961875" size="1.778" layer="25" rot="R90">K3</text>
+<text x="58.57656875" y="47.661175" size="1.778" layer="25" rot="R90">K4</text>
+<text x="61.542440625" y="47.747728125" size="1.778" layer="25" rot="R90">K5</text>
 </plain>
 <libraries>
 <library name="DP-05RP">
